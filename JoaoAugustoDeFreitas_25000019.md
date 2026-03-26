@@ -1,9 +1,9 @@
 # Avaliação — Engenharia de Software
 **Sistema Integrado de Gestao de Farmácia**
 
-Aluno: João Augusto de Freitas  
-RA: 25000019
-Data: 25/03/2026  
+- Aluno: João Augusto de Freitas  
+- RA: 25000019
+- Data: 25/03/2026  
 
 ---
 
@@ -72,7 +72,11 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 
 ## Diagrama de Casos de Uso
 
-.
+<img width="834" height="357" alt="uc_relatorios_administracao" src="https://github.com/user-attachments/assets/c43b8d87-0bfb-49bf-8f8d-833815229677" />
+<img width="647" height="473" alt="uc_operacoes_venda" src="https://github.com/user-attachments/assets/adeeed21-29d6-4798-bb14-d9d8843393a0" />
+<img width="718" height="353" alt="uc_gestao_estoque_compras" src="https://github.com/user-attachments/assets/279420b5-4251-42ef-9c45-6cfe0d5064f9" />
+<img width="623" height="325" alt="uc_financeiro" src="https://github.com/user-attachments/assets/3000ba28-ca7f-47e8-a078-c11ed682d01b" />
+<img width="190" height="315" alt="uc_controle_especial" src="https://github.com/user-attachments/assets/04a35c85-c32a-4752-9d37-b96b16aa9214" />
 
 ---
 
@@ -102,7 +106,7 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 - **Extend:** Venda a Prazo, Validar Receita
 
 ### Diagrama de Atividades
-
+<img width="938" height="716" alt="uc01_realizar_venda" src="https://github.com/user-attachments/assets/3ab4ba8e-e46a-4765-a907-d0218fe376cb" />
 
 ---
 
@@ -123,7 +127,7 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 - **Extend:** Realizar Venda
 
 ### Diagrama de Atividades
-
+<img width="522" height="361" alt="uc02_consultar_produto" src="https://github.com/user-attachments/assets/6aa87757-3160-42eb-b638-5fae2547ddf5" />
 
 ---
 
@@ -144,7 +148,7 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 - **Extend:** Realizar Venda
 
 ### Diagrama de Atividades
-
+<img width="515" height="371" alt="uc03_identificar_cadastrar_cliente" src="https://github.com/user-attachments/assets/2260b625-c5c3-4339-8372-06ebef5611a2" />
 
 ---
 
@@ -168,7 +172,7 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 - **Extend:** Gerar Conta a Pagar
 
 ### Diagrama de Atividades
-
+<img width="354" height="415" alt="uc04_registrar_compra_produtos" src="https://github.com/user-attachments/assets/dbf02a07-3def-45fa-b3ac-98f75c609716" />
 
 ---
 
@@ -189,7 +193,7 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 - **Extend:** Registrar Compra de Produtos, Realizar Venda
 
 ### Diagrama de Atividades
-
+<img width="450" height="253" alt="uc05_atualizar_estoque" src="https://github.com/user-attachments/assets/0dd38933-cad8-4268-a5c0-334a33fe954f" />
 
 ---
 
@@ -210,7 +214,7 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 - **Include:** Registrar Compra de Produtos
 
 ### Diagrama de Atividades
-
+<img width="394" height="253" alt="uc06_gerar_conta_pagar" src="https://github.com/user-attachments/assets/655ef8e6-fc2f-4cf5-a93c-cdb356916e51" />
 
 ---
 
@@ -231,7 +235,7 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 - **Include:** Realizar Venda
 
 ### Diagrama de Atividades
-
+<img width="403" height="253" alt="uc07_gerar_conta_receber" src="https://github.com/user-attachments/assets/eb8158da-8625-4ac2-b534-745215f732d7" />
 
 ---
 
@@ -252,7 +256,7 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 - **Include:** Realizar Venda
 
 ### Diagrama de Atividades
-
+<img width="361" height="336" alt="uc08_emitir_comprovante_venda" src="https://github.com/user-attachments/assets/22f453a1-4bc0-486b-8f8e-25bd49a59af6" />
 
 ---
 
@@ -273,7 +277,7 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 - **Extend:** Todas as operações principais
 
 ### Diagrama de Atividades
-
+<img width="327" height="307" alt="uc09_gerar_relatorios" src="https://github.com/user-attachments/assets/0bc9d432-cfb1-4d8e-bcc2-ab216890516b" />
 
 ---
 
@@ -295,7 +299,7 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 - **Extend:** Todas as operações restritas
 
 ### Diagrama de Atividades
-
+<img width="447" height="361" alt="uc10_gerenciar_usuarios_permissoes" src="https://github.com/user-attachments/assets/e7df644b-d38a-4996-a5ea-28b37a039bea" />
 
 ---
 
@@ -319,7 +323,7 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 - **Include:** Atualizar Estoque
 
 ### Diagrama de Atividades
-
+<img width="390" height="415" alt="uc11_transferir_estoque" src="https://github.com/user-attachments/assets/4794b895-d9f7-4d19-922a-e9324346e1de" />
 
 ---
 
@@ -342,6 +346,6 @@ Ficam fora (muito avançado, por iso não faz sentido estar em um MVP):
 - **Extend:** Realizar Venda
 
 ### Diagrama de Atividades
-
+<img width="258" height="307" alt="uc12_validar_receita" src="https://github.com/user-attachments/assets/7fb43fe4-686d-477e-b8f5-ac33e87cfab2" />
 
 ---
